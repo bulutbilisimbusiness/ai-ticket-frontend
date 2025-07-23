@@ -2,6 +2,13 @@
 
 Modern, AI destekli ticket yönetim sistemi arayüzü. React ile geliştirilmiş, kullanıcı dostu interface.
 
+## 🌐 **Canlı Demo**
+
+- **🚀 Frontend (Vercel):** [https://ai-ticket-frontend-green.vercel.app](https://ai-ticket-frontend-green.vercel.app)
+- **⚙️ Backend API (Render):** [https://ai-ticket-backend-gv7o.onrender.com](https://ai-ticket-backend-gv7o.onrender.com)
+
+> **Not:** İlk kullanımda backend soğuk başlatma nedeniyle 30-60 saniye sürebilir.
+
 ## ✨ Özellikler
 
 - 🎨 **Modern UI/UX** - TailwindCSS + DaisyUI
@@ -207,8 +214,11 @@ ai-ticket-frontend/
 ### 2. **Environment Variables**
 
 ```env
-# Vercel'de ayarlanacak (gerekirse)
-VITE_API_URL=https://your-backend-url.com
+# Production (Vercel'de ayarlanmış)
+VITE_SERVER_URL=https://ai-ticket-backend-gv7o.onrender.com/api
+
+# Development (local)
+VITE_SERVER_URL=http://localhost:3001/api
 ```
 
 ### 3. **Vercel CLI ile Deploy**
@@ -223,6 +233,13 @@ vercel --prod
 - Vercel'e GitHub repo'yu bağlayın
 - Otomatik deployment aktif olur
 - Push → Build → Deploy otomatik
+
+### 5. **Canlı Deployment**
+
+Bu proje şu adreste çalışıyor:
+
+- **Frontend:** [https://ai-ticket-frontend-green.vercel.app](https://ai-ticket-frontend-green.vercel.app)
+- **Backend:** [https://ai-ticket-backend-gv7o.onrender.com](https://ai-ticket-backend-gv7o.onrender.com)
 
 ## 🔧 Scripts
 
