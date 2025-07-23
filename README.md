@@ -41,7 +41,7 @@ npm install
 
 Eğer API URL'i değiştirmek istiyorsanız, `src` klasöründeki fetch URL'lerini güncelleyin.
 
-Varsayılan backend URL: `http://localhost:3001`
+Varsayılan backend URL: `http://localhost:3000`
 
 ### 4. Development Serveri
 
@@ -273,7 +273,7 @@ npm run dev -- --port 3000
 
 ```javascript
 // src/pages içindeki fetch URL'lerini kontrol et
-const response = await fetch("http://localhost:3001/api...");
+const response = await fetch("http://localhost:3000/api...");
 ```
 
 ## 🎯 Performance
